@@ -13,10 +13,20 @@ browser.goto 'http://www.vidtomp3.com/'
 puts 'Site Vidtomp3 rejoint'
 
 youtube = [	
-	#'après le 27 octobre, non téléchargé',
+	#'après le 28 octobre, non téléchargé',
+			 '',
+			 '',
+			 '',			 
+			 '',			 
 			 '',
 			 '',
 			 '',
+			 '',
+			 '',
+			 '',
+			 '',
+			 '',			 
+			 '',			 
 			 '',
 			 '',
 			 '',
