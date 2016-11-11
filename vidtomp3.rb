@@ -1,8 +1,9 @@
-#require_relative './youtube.rb'
-
+require_relative 'youtube_links'
+puts "vidtomp3 : youtube = "
+youtube = YoutubeLinks.youtube
+puts youtube
 require 'watir'
 require 'watir-webdriver'
-
 puts 'Watir ouvert'
 Selenium::WebDriver::Firefox.path = "/Users/trolle/projects/Firefox-47.app/Contents/MacOS/firefox"
 puts 'Firefox spécifié'
@@ -12,7 +13,7 @@ puts 'Browser On'
 browser.goto 'http://www.vidtomp3.com/'
 puts 'Site Vidtomp3 rejoint'
 
-youtube = [	
+youtubetest = [	
 	#'après le 28 octobre, non téléchargé',
 			 '',
 			 '',
