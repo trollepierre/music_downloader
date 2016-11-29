@@ -1,17 +1,6 @@
 module YoutubeLinks
   
-  @youtube = [	
-'https://www.youtube.com/watch?v=PJ7E40Ec5ec',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
-'',
+  @youtube = [
 '',
 '',
 '',
