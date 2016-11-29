@@ -1,7 +1,7 @@
 module YoutubeLinks
   
   @youtube = [
-'',
+'sd',
 '',
 '',
 '',
